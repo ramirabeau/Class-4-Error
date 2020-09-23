@@ -1,0 +1,261 @@
+/* This is a comment in CSS */
+
+
+/* Use CSS Code */
+
+
+/* Name of the color, RGB Code, or Hex */
+
+
+/* selector:  Tag, id, and class */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*
+#bio {
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto 50px;
+
+    padding: 50px;
+} 
+*/
+
+header {
+    background-image: url(../img/bg.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    color: aqua;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+header h2 {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+header p {
+    font-size: 23px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#btn {
+    background-color: #086986;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+/*Bio*/
+
+img {
+    width: 300px;
+    border: 10px solid #dedede;
+    border radius: 50%;
+    opacity: .8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+
+@media(min-width:768px) {
+    footer {
+        background-color: red;
+    }
+}
+
+footer p {
+    text-align: center;
+}
+
+
+/*menu-mobile*/
+
+nav {
+    background-color: #086986;
+    color: white;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav a:last-of-type {
+    padding-bottom: 10px;
+}
+
+nav a:hover {
+    background-color: #222222;
+}
+
+@media(min-width:768px) {
+    /*desktop design*/
+    nav {
+        text-align: center;
+    }
+    nav a {
+        display: inline-block;
+        padding: 10px;
+        margin-right: 50px;
+    }
+}
+
+
+/* ul */
+
+ul {
+    background-color: 086986 padding: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    list-style-type: none;
+    background-color: #086986;
+    color: white;
+    margin-bottom: 10px;
+}
+
+ol {
+    background-color: antiquewhite;
+    color: black;
+}
+
+ol li {
+    background-color: rgb(224, 15, 3);
+    color: #222222;
+    margin-bottom: 10;
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: darkgreen;
+}
+
+
+/* Service */
+
+
+/* From the html; identifying the look of the service class*/
+
+.service {
+    background-color: #dedede;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.service h4 {
+    font-size: 25px;
+}
+
+.service p {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background-color: #fcff49;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    background-color: #dedede;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 30px;
+}
+
+.contact h4 {
+    font-size: 25px;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.contact-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #8a186da4;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-icon h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
